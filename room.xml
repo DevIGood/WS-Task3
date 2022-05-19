@@ -1,0 +1,43 @@
+<rooms>
+
+    <room>
+        <roomNumber>101</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>102</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>103</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>104</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+    <room>
+        <roomNumber>105</roomNumber>
+        <roomType>Standart</roomType>
+        <bedType>Standart</bedType>
+        <isFree>false</isFree>
+        <cost>25.99</cost>
+    </room>
+
+</rooms>
