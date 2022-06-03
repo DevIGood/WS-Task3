@@ -1,0 +1,90 @@
+openapi: 3.1.0
+info:
+  title: Hotel API
+  description: |
+    This is a basic API designed to modify hotel database.
+  version: 1.0.0
+paths:
+  /GetAll:
+    get:
+      summary: Get all rooms
+      description: Retrieves the whole list of rooms
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/xml:
+              schemas:
+                room:
+                  type: array
+                  properties:
+                    bedType:
+                      type: string
+                    cost:
+                      type: double
+                    isFree:
+                      type: boolean
+                    roomNumber:
+                      type: integer
+                    roomType:
+                      type: string
+                  xml:
+                    name: 'Rooms'
+
+
+  /Get/{roomNumber}:
+    parameters:
+      - name: roomNumber
+        in: path
+        required: true
+        schema:
+          type: integer
+    get:
+      summary: Get specific room
+      description: Retrieves the requested room
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/xml:
+              schemas:
+                room:
+                  type: object
+                  properties:
+                    bedType:
+                      type: string
+                    cost:
+                      type: double
+                    isFree:
+                      type: boolean
+                    roomNumber:
+                      type: integer
+                    roomType:
+                      type: string
+                  xml:
+                    name: 'room'
+
+  /Create:
+    post:
+      summary: Creates a new room
+      description: Allowes to add a room to database
+      requestBody:
+        description: Data required to create a room
+        required: true
+        content:
+          application/xml:
+            schema:
+              properties:
+                bedType:
+                  type: string
+                cost:
+                  type: double
+                isFree:
+                  type: boolean
+                roomNumber:
+                  type: integer
+                roomType:
+                  type: string
+      responses:
+        '201':
+          description: "OK"

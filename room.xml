@@ -1,43 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rooms>
-
     <room>
+        <bedType>Standart</bedType>
+        <cost>25.99</cost>
+        <isFree>false</isFree>
         <roomNumber>101</roomNumber>
         <roomType>Standart</roomType>
-        <bedType>Standart</bedType>
-        <isFree>false</isFree>
-        <cost>25.99</cost>
     </room>
-
     <room>
+        <bedType>Standart</bedType>
+        <cost>25.99</cost>
+        <isFree>false</isFree>
         <roomNumber>102</roomNumber>
         <roomType>Standart</roomType>
-        <bedType>Standart</bedType>
-        <isFree>false</isFree>
-        <cost>25.99</cost>
     </room>
-
     <room>
+        <bedType>Standart</bedType>
+        <cost>25.99</cost>
+        <isFree>false</isFree>
         <roomNumber>103</roomNumber>
         <roomType>Standart</roomType>
-        <bedType>Standart</bedType>
-        <isFree>false</isFree>
-        <cost>25.99</cost>
     </room>
-
     <room>
+        <bedType>Standart</bedType>
+        <cost>25.99</cost>
+        <isFree>false</isFree>
         <roomNumber>104</roomNumber>
         <roomType>Standart</roomType>
-        <bedType>Standart</bedType>
-        <isFree>false</isFree>
-        <cost>25.99</cost>
     </room>
-
     <room>
+        <bedType>Standart</bedType>
+        <cost>25.99</cost>
+        <isFree>false</isFree>
         <roomNumber>105</roomNumber>
         <roomType>Standart</roomType>
-        <bedType>Standart</bedType>
-        <isFree>false</isFree>
-        <cost>25.99</cost>
     </room>
-
 </rooms>
